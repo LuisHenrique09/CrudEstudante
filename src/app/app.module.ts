@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { EstudantesComponent } from './estudantes/estudantes.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     NgbModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
 
   ],
   providers: [],
